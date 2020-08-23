@@ -13,10 +13,11 @@ const NewsCards = ({ articles }) => {
         className={classes.container}
         container
         alignItems="stretch"
+        justify="center"
         spacing={3}
       >
         {articles.map((article, i) => (
-          <Grid item xs={12} sm={6} style={{ display: "flex" }}>
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ display: "flex" }}>
             <NewsCard article={article} i={i} />
           </Grid>
         ))}
