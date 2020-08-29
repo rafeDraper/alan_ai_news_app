@@ -13,7 +13,6 @@ const NewsCards = ({ articles }) => {
         className={classes.container}
         container
         alignItems="stretch"
-        justify="center"
         spacing={3}
       >
         {articles.map((article, i) => (
